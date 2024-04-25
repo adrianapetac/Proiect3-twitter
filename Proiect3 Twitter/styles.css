@@ -48,16 +48,15 @@ body {
     margin: auto;
 }
     .feed {
-        background-color: blue;
         display: flex;
-        overflow: auto;
-        flex:2;
+        overflow-y: auto;
+        flex: 2;
         flex-direction: column;
         gap:20px;
         padding: 0 20px;
     }
 
-    .post{
+    .post {
         border-bottom: 1px solid #eaeaea;
         padding-bottom: 20px;
     }
@@ -68,7 +67,8 @@ body {
     }
     .card {
         border: 1px solid #eaeaea;
-        border-radius: 5px;
+        border-radius: 10px;
+        padding: 10px;
 
     }
     .description {
