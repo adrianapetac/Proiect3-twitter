@@ -24,6 +24,18 @@ body {
         flex-direction: column;
 
     }
+    .avatar {
+        vertical-align: middle;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+      .avatar1 {
+        vertical-align: middle;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
     .user-profile {
         gap:10px;
         margin-top: auto;
@@ -71,7 +83,6 @@ body {
         padding: 10px;
 
     }
-    .description {
-        padding-left: 50px;
-    }
     
+    
+   
